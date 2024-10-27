@@ -38,7 +38,7 @@ class MA_Customize_Login_Page
 
     public function customize_login_form_live_preview()
     {
-        error_log('Customizing login form script is enqueued.');
+        // error_log('Customizing login form script is enqueued.');
         wp_enqueue_script(
             'customize-login-preview',
             plugins_url('assets/admin/js/customize-login-preview.js', __FILE__),
